@@ -3,7 +3,6 @@ from flask_restful import Api
 from flask_jwt import JWT
 from db import db
 
-print("Ven")
 
 from security import authenticate, identity
 from resources.user import UserRegister
